@@ -1,1 +1,10 @@
-şë+ı¸§ı¶¬{®%Šwµß¯İzÿìµÚ.´ê^­«b¢yè¶—«š+myßî²¿ÛŠÛjÇºàÎzºè®‰â›­
+import { MobileRuntime } from "./mobile";
+import Prototype from "./Prototype";
+
+export default function App() {
+  return (
+    <MobileRuntime>
+      <Prototype />
+    </MobileRuntime>
+  );
+}
